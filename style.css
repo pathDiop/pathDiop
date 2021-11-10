@@ -1,0 +1,243 @@
+
+
+html{
+    margin :0;
+    padding: 0; 
+    display: block;
+   box-sizing: border-box;
+}
+    body{
+    display: block;
+    margin :0;
+    padding: 0;
+    font-family: "Graphik", Arial, Helvetica, sans-serif;
+    font-size: 17px;
+    box-sizing: border-box;
+}
+.contaner{
+    margin: 0;
+    padding: 10px;
+    box-sizing: border-box;
+    background-color: whitesmoke;
+}
+.menu{
+    width:100vw;
+    height: 50px;
+    padding: 15px 10px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    z-index: 10;
+    position: fixed;
+    background-color: rgba(0,0,0,0.7);
+}
+.logo{
+    position:absolute;
+    left:10px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    position: absolute;
+    left:30px ;
+     
+}
+.logo a{
+    margin-right: 40px;
+   
+}
+.logo p{
+    color: white!important;
+    font-weight: bold;
+}
+.logo img{
+    height: 80px;
+    width:90px;
+}
+.nav{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    position: absolute;
+    right:50px ;
+    
+}
+.nav a{
+    margin-right: 15px;
+    text-decoration: none;
+    color: white;
+    font-weight: bold;
+}
+header{
+    width: 100vw;
+    height: 60vh;
+    position: relative;
+}
+ 
+video{
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    z-index: 5;
+    display:block;
+}
+  
+.center-home{
+    display: block;
+    padding: 15px;
+    position: relative;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    z-index: 90;
+    background: linear-gradient(
+        113deg, rgba(255,0,0,0.7) 0%,rgba(0,5,120,0.7) 70%);
+         
+}
+
+.center-home h1{
+    text-align: center;
+    font-size: 28px;
+    color: white;
+    position: absolute;
+    top: 25%;
+    left: 5%;
+}
+     
+ 
+.center-home h1 strong{
+   font-weight: 700; 
+}
+.center-home input{
+    width: 50%;
+    bottom: 40%;
+    left: 25%;
+    line-height: 65px;
+    border: 1px solid white;
+    background-color: transparent;
+    border-radius: 20px;
+    position: absolute;
+}
+.center-home .button-search{
+    width: 50px;
+    border-radius: 50%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: red;
+    border: 1px solid white;
+}
+.center-home .button-search far fa-search{
+    color: white;
+        bottom: 40%;
+        right: 30%;
+        width: 150px;
+        position: absolute;
+        font-size: 28px;
+}
+.centre{
+    margin-top: 30px;
+    padding: 15px;
+    width: 100%;
+    display: block;
+    /* display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: space-evenly;
+    align-items: center; */
+    background: #FFF;
+}
+.centre h2{
+    text-align: center;
+}
+centre h4{
+    text-align: center;
+    color: black;
+}
+.centre .centre-article{
+     display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: space-evenly;
+    align-items: center; 
+}
+.centre .centre-article article{
+    border: 1px solid white;
+    width: 22%;
+    height: 100%;
+    padding: 10px;
+    box-sizing: border-box;
+}
+
+.centre .section-article{
+    padding: 15px;
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: space-evenly;
+    align-items: center;
+}
+.centre h4{
+    text-align: center;
+    color: #F83131;
+    margin-bottom: 10px;
+}
+.section-article .article{
+    display: flex;
+    flex-direction: column;
+    width: 22%;
+    height: 100%;
+    border: 1px solid gray;
+    color:black;
+
+
+
+}
+section-article .class-img{
+    width: 80%;
+    height: 80%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 15px;
+    margin: 0 auto;
+}
+.centre .section-article img{
+    width: 80%;
+     
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 15px;
+    margin: 0 auto;
+}
+h3 span{
+    
+   font-size: 15px; 
+}
+/*********************section grey*****************/
+.grey{
+    margin: 0 auto;
+    padding:5px;
+    background-color: gray;
+    display:block;
+
+}
+.grey .textes-articles{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 15px;
+}
+.textes-articles .article{
+    display: block;
+    width: 90%;
+}
+.textes-articles .article img{
+    display: block;
+    width: 40%;
+    float: left;
+}
